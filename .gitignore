@@ -1,0 +1,5 @@
+
+# Les fichiers qui seront ignorés par Git
+
+*.otf
+Document fonts
