@@ -3,3 +3,4 @@
 
 *.otf
 Document fonts
+.DS_Store
