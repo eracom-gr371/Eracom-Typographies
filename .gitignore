@@ -3,6 +3,7 @@
 
 *.otf
 *.zip
+*fichiers de travail
 Document fonts
 .DS_Store
 
