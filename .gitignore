@@ -2,5 +2,12 @@
 # Les fichiers qui seront ignorés par Git
 
 *.otf
+*.zip
+*fichiers de travail
 Document fonts
 .DS_Store
+
+# Dossier pour recherche à ne pas publier
+
+IZ_font
+*.idlk
