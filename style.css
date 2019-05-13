@@ -1,0 +1,31 @@
+/* Styles généraux */
+
+body {
+    font-family: "Plain", "Helvetica", sans-serif;
+}
+
+/* Titre */
+
+.header {
+    border-bottom: 1px solid black;
+}
+.header h1 {
+    margin-bottom: 0;
+}
+
+/* Fonte typographique */
+
+.typeface header {
+    margin-top: 1em;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.typeface .author,
+.typeface .title,
+.typeface time {
+    margin: 0;
+    font-size: 1em;
+    font-weight: normal;
+}
