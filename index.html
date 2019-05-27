@@ -6,6 +6,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="fichiersEnLigne/slick-1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="fichiersEnLigne/slick-1.8.1/slick/slick-theme.css"/>
     </head>
     <body>
         <header class="header">
@@ -18,8 +20,31 @@
                 <time>2018</time>
             </header>
             <div class="carousel">
-                image carousel
+              <div class="fade">
+                <img src="/Users/janissasallin/Documents/eracom typefaces/Eracom-Typographies/fichiersEnLigne/nmey_font-01/nmey_font-01_img-01.jpg">
+                <img src="/Users/janissasallin/Documents/eracom typefaces/Eracom-Typographies/fichiersEnLigne/nmey_font-01/nmey_font-01_img-02.jpg">
+                <img src="/Users/janissasallin/Documents/eracom typefaces/Eracom-Typographies/fichiersEnLigne/nmey_font-01/nmey_font-01_img-03.jpg">
+              </div>
             </div>
         </section>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="fichiersEnLigne/slick-1.8.1/slick/slick.min.js"></script>
+
+        <script>
+            $('.fade').slick({
+              dots: true,
+              infinite: true,
+              speed: 500,
+              fade: true,
+              cssEase: 'linear'
+            });
+            //   $(document).ready(function(3){
+            //   $('.fade').slick({
+            //     position: absolute
+            //   });
+            // });
+        </script>
     </body>
 </html>
