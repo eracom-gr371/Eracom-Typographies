@@ -33,8 +33,9 @@ body {
 .fade img {
 object-fit: contain;
 max-height: calc(100vh - 20em);
-margin-top: calc(100vh - 90vh);
-width:100%;
+/* max-width: calc(100vw - 20em); */
+margin-top: 10vh;
+max-width:80%;
 }
 
 .slick-prev button {
