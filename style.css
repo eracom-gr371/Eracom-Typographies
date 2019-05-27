@@ -29,10 +29,15 @@ body {
     font-size: 1em;
     font-weight: normal;
 }
-.fade {
+
+.fade img {
+object-fit: contain;
+max-height: calc(100vh - 20em);
+margin-top: calc(100vh - 90vh);
+width:100%;
 }
 
-.carousel img {
-object-fit: contain;
-max-height: calc(100vh - 3em);
+.slick-prev button {
+  margin-left: auto;
+  margin-right: auto;
 }
